@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Django_Projects" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Django_Projects/Django_Checkbook_Project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Django_Projects/djangoUniversity_Project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Django_Projects/tech_project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Visual_Studios" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sqlite3_Projects" vcs="Git" />
+  </component>
+</project>
