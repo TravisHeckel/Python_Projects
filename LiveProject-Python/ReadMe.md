@@ -1,4 +1,4 @@
-                                      # LIVE PROJECT USING PYTHON
+                                      # LIVE-PROJECT
 
 ### Introduction
   At The Tech Academy I had the opportunity to be a part of a two-week sprint working on a live project with other developers. We worked as a team building a full-stack web application using primarily Python. We where able to add to the project as well as correct bugs found in the project. During the project I was able to utilize Django and SQlite. I was able to build some experience in project management and team building skills as we reviewed over our work and any problems that may have hindered us. I have included an explanation below that summarizes the work I provided in this project and the code that is linked in this repository. 
