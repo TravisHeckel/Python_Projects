@@ -1,20 +1,60 @@
-# Python_Projects
- 
-## Introduction
+# Python Projects
 
-### [Nice or Mean Project](https://github.com/TravisHeckel/Python_Projects/tree/main/Nice_or_Mean_Project)
-This is a basic game of decision making, it will seek the users name and has catch statments in case they already have their name inputed and chose to play again. Then the game spends time asking you situational questions and will respond with both a message and sound based on your chosen responses.
+A collection of my Python work from The Tech Academy — command-line exercises,
+coding challenges, and several full Django web applications.
 
-### [Python challenges](https://github.com/TravisHeckel/Python_Projects/tree/main/Python%20Challenges)
-These challenges reflect different aspects of python including the ability to read ranges of numbers, set date and time, access databases and generate a quick page. It also includes scripts and how we can load other ones into our program.
+## Command-line & exercises
 
-## Django projects
-These projects listed below specifically used Django framework in creating these. It has a variety of challenges given to me and I completed while In the Tech Academy. 
-### [Checkbook Project](https://github.com/TravisHeckel/Python_Projects/tree/main/Django_Projects/Django_Checkbook_Project)
-This checkbook project was a website that allowed for users to include monitary transactions. It keeps a record of the transactions and will calculate the difference based on what is included.
-### [Djange University](https://github.com/TravisHeckel/Python_Projects/tree/main/Django_Projects/djangoUniversity_Project)
-This program allows for you to create different University buildings and include different categories(courses) for each of those university buildings.
-### [pycharm Project](https://github.com/TravisHeckel/Python_Projects/tree/main/Django_Projects/pyCharm%20Project)
-This was my first project using pyCharm and I was able to experience setting up a basic car object in the terminal and I could change the speed and capabilities of this car.
-### [Tech_project](https://github.com/TravisHeckel/Python_Projects/tree/main/Django_Projects/tech_project)
-This was a full fledge website that allowed for a hotel that does room service. I create an admin that can access andchange what items can be included on the menu and price changes. But overall users can add or delete what they want from the menu. 
+### [Nice or Mean Project](./Nice_or_Mean_Project)
+A decision-making game. It asks for the user's name (handling the case where a
+name was already entered and they chose to play again), then walks through
+situational questions and responds with both a message and a sound based on each
+choice.
+
+### [Python Challenges](./Python%20Challenges)
+Assorted exercises covering core Python: reading ranges of numbers, working with
+date and time, accessing databases, generating a simple page, and loading one
+script into another.
+
+### [pyCharm Project](./Django_Projects/pyCharm%20Project)
+My first project in PyCharm — building a basic `Car` object in the terminal and
+changing its speed and capabilities.
+
+## Django web applications
+
+These are full Django projects. Each was built and tested with **Django 4.1 on
+Python 3.11** and ships with a `requirements.txt`.
+
+### [Checkbook Project](./Django_Projects/Django_Checkbook_Project)
+A website that lets users record monetary transactions. It keeps a running record
+and calculates the balance based on the entries.
+
+### [Django University](./Django_Projects/djangoUniversity_Project)
+Create different university buildings and add categories (courses) to each
+building.
+
+### [Tech Project](./Django_Projects/tech_project)
+A full-fledged website for a hotel's room service. An admin can control which
+menu items are offered and change prices, while users can add or remove items.
+
+## Running a Django project
+
+Each Django app is self-contained. From the folder that holds its `manage.py`:
+
+```bash
+# from the project folder (e.g. Django_Projects/tech_project/src/mainapp)
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+pip install -r ../../requirements.txt   # path to that project's requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+Then open http://127.0.0.1:8000/ in your browser. A demo `db.sqlite3` is included
+so the apps run with sample data out of the box. (The `SECRET_KEY` in settings is
+Django's default insecure development key — fine for local demos, not production.)
+
+## Author
+
+**Travis Heckel** — [GitHub](https://github.com/TravisHeckel) ·
+[LinkedIn](https://www.linkedin.com/in/travis-heckel-548010147/)
